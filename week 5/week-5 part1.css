@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 38px;
+}
+body {
+  font-family: "Bitter", serif;
+  color: gray;
+}
+.two-half-layout {
+  display: flex;
+}
+.column-one {
+  background: rgb(108, 108, 239);
+  color: white;
+  width: 50%;
+}
+.column-two {
+  width: 50%;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color: rgb(201, 242, 230);
+  padding: 5%;
+  color: rgb(234, 177, 186);
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.heading h1 {
+margin-bottom:70px;
+font-size: 70px;
+
+}
+img{
+    width:100%;
+}
+.content p{
+    font-size:30px;
+}
+ .date-venue p{
+    font-size:25px;  
+    margin-top: 23px;
+}
+
+.button{
+    margin-top: 40px;
+    background-color:rgb(195, 229, 243);
+    width: fit-content;
+    border-radius:15px;
+    color: black;
+}
+{
+    width: fit-content;
+    text-decoration: none;
+    text-transform: capitalize;
+   
+}
