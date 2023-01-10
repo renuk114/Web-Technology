@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+
+.main{
+    display: flex;
+    color:white;
+}
+
+.main1{
+    width: 50%;
+    background-color: rgb(226, 111, 130);
+    height: 100vh;
+    padding-left: 45px;
+}
+
+.main2{
+    width: 100%;
+    height: 100vh;
+}
+
+.main button{
+    margin-top: 40px;
+    background-color:yellow;
+    width: fit-content;
+    border-radius:15px;
+    color: black;
+    border-radius: 25px;
+    display: flex;
+}
+
+.main1 p{
+    font-size: 25px;
+}
+
+@media(max-width=1024px) {
+    h1{
+        font-size:30px;
+        margin-top:50%;
+    }
+    .main2 .second{
+        font-size:20pxtop;
+        margin-top: 15px;
+    }
+}
+
+.main1 .number .email .anotheremail{
+    margin-top: 15px;
+}
+
+.main2 figure img{
+    width: 100%;
+    height: 100vh;
+}
