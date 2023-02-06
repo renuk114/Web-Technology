@@ -1,5 +1,5 @@
 //console.log("Hello world i'm learning JavaScript!!");
-let a=6;
+/*let a=6;
 let b=7;
 let sum=a+b;
 console.log(sum);
@@ -24,7 +24,7 @@ console.log("The dog is very old.")
 else{
     console.log("The dog is very young.")
 }
-bark(); 
+bark(); */
 
 document.getElementById("myBtn").onclick = function(){
     let radius = document.getElementById("myNumber").value;
