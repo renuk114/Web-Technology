@@ -12,3 +12,4 @@ function employee (id, name, salary){
 }
 e= new employee(90,"Jack", 30000);
 
+
