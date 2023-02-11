@@ -25,8 +25,7 @@ else{
     console.log("The dog is very young.")
 }
 bark(); */
-
-document.getElementById("myBtn").onclick = function(){
+document.getElementById("myBtn").onclick = function() {
     let radius = document.getElementById("myNumber").value;
     console.log(radius);
     const PI= 3.14;
