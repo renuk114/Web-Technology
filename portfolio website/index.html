@@ -1,71 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Mo - Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="index.css"> 
 
 </head>
 <body>
-    <div class="header">
-        <nav>
-            <a href="#" class="logo">Portfolio</a>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Hobbies</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Footer</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="left-sidebar"></div>
-        <div class="row">
-            <div class="left-col">
-            <img src="renukadh.jpg" />
-        </div>
-        <div class="right-col">
-            <h1>I'm Renuka Dhakal <br>
-            Web Designer
-            </h1>
-            <p>This is my official portfolio website. I'm interested in creating website design, graphic design and many more..</p>
-                <div class="social-media">
-                    <div class="icon">
-                        <i class="fab fa-facebook-f"></i>
-                        <a href="#">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    <div class="icon">
-                        <i class="fab fa-github"></i>
-                        <a href="#">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="#">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-                    
-            
-                    <div class="icon">
-                        <i class="fab fa-instagram"></i>
-                        <a href="#">
-                            <i class="fas fa-external-link-alt"></i>
-                        </a>
-                    </div>
-
-                </div>
-        </div>
-    </div>
-</div>
     
+    <header class="header">
+        <a href="#" class="logo"> </i> Portfolio</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#">home</a>
+            <a href="#about">about me</a>
+            <a href="#portfolio">my portfolio</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="portfolio-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header>
+        <!--  header -->
+
+        <!-- Home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h4> WELCOME TO MY PORTFOLIO!! <br> This is my official <br> portfolio website. <br>
+
+                I'm interested in creating website design, graphic design and many more..</h4>
+        </div>
+
+    </section>
+
+        <!-- home -->
+
+        <!-- About me -->
+
+    <h1 class="heading">about me</h1>
+    
+    <section class="about" id="about">
+
+        <div class="row">
+
+            <div class="image">
+                <img src="picture-7.png" alt="about">
+            </div>
+
+            <div class="content">
+                <h3>Who am i?</h3>
+                <div class="line"></div>
+                <p>Hello! It's me Renuka Dhakal. I'm 2o years old. I'm currently staying at Jorpati, Kathmandu but my permanent home address is Sindhupalchok. I find programming languages very interesting so I spend most of my time coding. Learning new thing and getting into new hobbies has been incredibly benificial for me.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!-- end -->
+
+    <!-- portfolio -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading">Portfolio</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="picture-6.png" alt="">
+                <h3>My picture</h3>
+                
+            </div>
+
+            <div class="box">
+                <img src="picture-2.png" alt="">
+                <h3>My picture</h3>
+                
+            </div>
+
+            <div class="box">
+                <img src="picture-5.png" alt="">
+                <h3>My picture</h3>
+               
+            </div>
+
+            <div class="box">
+                <img src="picture1.png" alt="">
+                <h3>My picture</h3>
+               
+            </div>
+
+            <div class="box">
+                <img src="school.png" alt="">
+                <h3>My school <br>Gateway Academy <br> 2005 AD - 2018 AD <br> Pepsicola, Kathmandu</h3>
+                
+            </div>
+
+            <div class="box">
+                <img src="highschool.png" alt="">
+                <h3>My highschool <br>Learning Realm International <br> 2019 AD - 2022 AD <br> Kalanki, Kathmandu</h3>
+               
+            </div>
+
+            <div class="box">
+                <img src="college.png" alt="">
+                <h3>My college <br> Herald College <br> 2022 AD- 2025 AD<br> Naxal, Kathmandu</h3>
+                
+            </div>
+
+        </div>
+
+    </section>
+<!-- end -->
+
+<!-- Contact US -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">Contact Me</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="picture-20.png" alt="">
+            </div>
+
+            <form action="">
+                <h3>Get in touch</h3>
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="phone">
+                </div>
+
+                <input type="submit" value="send message" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- End -->
+
+    <!-- Footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="footer-1.png" alt="">
+                <h3>address</h3>
+                <p>Pepsicola chowk, Kathmandu</p>
+    
+            </div>
+    
+            <div class="box">
+                <img src="footer-2.png" alt="">
+                <h3>E-mail</h3>
+                <a href="#" class="link">dhakalrenuka50@gmail.com</a>
+            </div>
+    
+            <div class="box">
+                <img src="footer-3.png" alt="">
+                <h3>Call us</h3>
+                <p>9812345678</p>
+            </div>
+    
+            <div class="box">
+                <img src="footer-4.png" alt="">
+                <h3>My other links:</h3>
+            
+                    <p> <a href="#" class="link">https://www.facebook.com/renu.dhakal.714</a> 
+                        <br><a href="#" class="link">https://github.com/renuk114/Web-Technology </a> 
+                       <br> <a href="#" class="link">https://wordpress.com/home/elysian97.wordpress.com </a>
+                       <br><a href="#" class="link">https://www.instagram.com/_elysian.97/</a>
+                       <br> <a href="#" class="link">https://www.linkedin.com/in/renuka-dhakal-33bb27259/</a></p>
+            </div>
+
+        </div>
+
+        <div class="credit">created by <span>RenukaDhakal</span> | all rights reserved! </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    
+    <script src="index.js"></script>
 </body>
 </html>
+
+
